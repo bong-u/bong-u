@@ -1,5 +1,5 @@
 #### Hello my name is bong u. I'm studying Computer Science at Chungnam University.
-
+[![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:bongudev@gmail.com)](mailto:bongudev@gmail.com)
 
 #### I'm learning
 
@@ -15,3 +15,6 @@
 <img src="https://img.shields.io/badge/Nodejs-339933?style=flat-square&logo=node.js&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/></a>
+
+#### My Github stats
+[![bong-u's github stats](https://github-readme-stats.vercel.app/api?username=bong-u)](https://github.com/bong-u/github-readme-stats)
