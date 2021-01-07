@@ -52,6 +52,9 @@ h1 span:nth-child(6) { color : #ea4335; }
     height : 25px;
     border : 0px;
 }
+input:focus {
+    border : 0px;
+}
 
 #searchBox > img {
     width : 15px;
