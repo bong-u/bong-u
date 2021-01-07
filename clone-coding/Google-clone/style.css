@@ -48,12 +48,14 @@ h1 span:nth-child(6) { color : #ea4335; }
     border : solid 1px #dfe1e5;
     border-radius : 20px;
     padding : 10px 10px;
+    height : 25px;
 }
 
 #searchBox > input {
     width : 400px;
-    height : 25px;
+    height : 35px;
     border : 0px;
+    font-size : 16px;
 }
 #searchBox > input:focus {
     outline : none;
