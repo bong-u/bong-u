@@ -11,10 +11,13 @@ header > * {
     float : right;
     padding : 10px 10px;
 }
-header > img{
+header > img {
     width : 15px;
     height : 15px;
     padding : 0 20px;
+}
+header > img:hover {
+    filter : brightness(50%);
 }
 header > span {
     height: 10px;
@@ -109,3 +112,8 @@ footer a {
 }
 footer div.left { float: left; }
 footer div.right { float: right; }
+
+a:hover {
+    text-decoration: underline;
+    cursor : pointer;
+}
