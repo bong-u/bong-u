@@ -32,9 +32,7 @@ header #searchBox input {
     font-size : 20px;
     font-weight: bold;
 }
-header #searchBox input:focus {
-    outline : none;
-}
+header #searchBox input:focus { outline : none; }
 header #searchBox #keyboard { width : 20px; }
 header #searchBox #arrow { width : 10px; }
 header #searchBox #search {
