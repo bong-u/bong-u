@@ -1,12 +1,12 @@
 ## cse-notice-kakao
 
-### outline
+### OUTLINE
 * 2021.01.08 ~ 2021.01.10
-1. crawl https://computer.cnu.ac.kr/computer/index.do notice
-2. send kakaotalk message to me (using kakao REST API)
+1. Crawl https://computer.cnu.ac.kr/computer/index.do notice.
+2. Send kakaotalk message to me. (using kakao REST API)
 
-### used
-* python (flask, requests), ngrok, GCE
+### USED
+* python (flask, requests, json), ngrok, GCE
 
-### overall diagram
-  
+### DIAGRAM
+![diagram](https://github.com/bong-u/bong-u/blob/main/cse-notice-kakao/overall_diagram.svg)
