@@ -13,3 +13,10 @@
 
 ### DIAGRAM2 (python applications)
 ![diagram](https://github.com/bong-u/bong-u/blob/main/cse-notice-kakao/diagram2.svg)
+
+### DISAPPOINTING SIDE
+Sending message to me by kakaotalk can't give notification.
+
+
+### SIGNIFICANCE
+I learned lot about HTTP requests, flask, dealing with encoding, json.. 😀
