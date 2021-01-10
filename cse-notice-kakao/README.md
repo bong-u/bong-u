@@ -8,5 +8,8 @@
 ### USED
 * python (flask, requests, json), ngrok, GCE
 
-### DIAGRAM
-![diagram](https://github.com/bong-u/bong-u/blob/main/cse-notice-kakao/overall_diagram.svg)
+### DIAGRAM1 (HTTP requests)
+![diagram](https://github.com/bong-u/bong-u/blob/main/cse-notice-kakao/diagram1.svg)
+
+### DIAGRAM2 (python applications)
+![diagram](https://github.com/bong-u/bong-u/blob/main/cse-notice-kakao/diagram2.svg)
