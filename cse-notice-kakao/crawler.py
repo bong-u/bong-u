@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 
 class Crawler:
     __recent = []
+    __FILE_PATH = '/home/bong_u_dev/cse-notice-kakao/recent.txt'
 
     def __init__(self):
         self.__readFile()
@@ -36,17 +37,10 @@ class Crawler:
 
     def __readFile(self):
 
-        with open('recent.txt', 'r') as f:
+        with open(self.__FILE_PATH, 'r') as f:
             self.__recent = f.read().split(' ')
 
     def __writeFile(self, new_recent):
-        
-        with open('recent.txt', 'w') as f:
+
+        with open(self.__FILE_PATH, 'w') as f:
             f.write(new_recent[0] + ' ' + new_recent[1])
-
-
-
-if __name__ == '__main__':
-    
-    c = Crawler()
-    c.crawl()

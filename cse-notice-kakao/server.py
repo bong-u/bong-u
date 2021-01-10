@@ -1,12 +1,12 @@
 import requests as req
-from flask import Flask, request
+from flask import Flask, request, redirect
 import json
 from urllib.parse import unquote
 
 app = Flask(__name__)
 
 CLIENT_ID = ''
-REDIRECT_URI = 'http://127.0.0.1:5000/oauth'
+REDIRECT_URI = ''
 
 access_token = ''
 access_token_expire = ''
@@ -20,10 +20,10 @@ def oauth():
     global refresh_token
     global refresh_token_expire
 
-    print ('GET /oauth')    
+    print ('GET /oauth')
 
     code = request.args['code']
-    
+
     res = req.post(
         url = 'https://kauth.kakao.com/oauth/token',
         headers = {'Content-Type' : 'application/x-www-form-urlencoded'},
@@ -47,7 +47,7 @@ def refresh():
     global refresh_token_expire
 
     print ('GET /refresh')
-    
+
     res = req.post(
         url = 'https://kauth.kakao.com/oauth/token',
         headers = {'Content-Type' : 'application/x-www-form-urlencoded'},
@@ -65,6 +65,7 @@ def refresh():
 
     return res.text
 
+
 @app.route('/send', methods=['POST'])
 def send():
     global access_token
@@ -74,11 +75,7 @@ def send():
 
     print('POST /send')
 
-    payload_str = unquote(request.data.decode('utf-8'))
-    payload = {}
-    for i in payload_str.split('&'):
-        j = i.split('=')
-        payload[j[0]] = j[1]
+    payload = json.loads(unquote(request.data.decode('utf-8')))
 
     headers = {
         'Content-Type' : 'application/x-www-form-urlencoded',
@@ -94,10 +91,7 @@ def send():
                 '"web_url": "{1}",'
                 '"mobile_web_url": "{2}"'
             '}}'
-            
-        '}}').format(payload['text'], payload['web_url'], payload['mobile_url']).encode('utf-8')
-    
-    #'"button_title": "button"'
+        '}}').format(payload.get('text'),'', '').encode('utf-8')
 
     res = req.post(
         url = 'https://kapi.kakao.com/v2/api/talk/memo/default/send',
@@ -106,6 +100,6 @@ def send():
     )
 
     return res.text
-    
+
 if __name__ == '__main__':
-    app.run()
+    app.run(host='localhost', port=80)
