@@ -53,6 +53,7 @@ nav span.green { color : #19ce60; }
 nav span.bold { font-weight : bold; }
 nav span:not([class]) {
     font-size : 13px;
+    margin : 0 10px;
 }
 
 nav #keyword {
@@ -65,3 +66,40 @@ nav #mail { width : 20px; }
 nav #tv { width : 12px; }
 nav #more { width : 10px; }
 nav #moreKeyword { width : 15px; }
+
+main {
+    margin : 0 180px;
+}
+aside { float : right; }
+aside #loginBox {
+    margin : 20px 0;
+    padding : 20px 20px;
+    border : 1px solid #dae1e6;
+    background-color : #f7f9fa;
+    font-size : 12px;
+}
+aside #loginBox > a { display : block;  }
+aside #loginBox > p {
+    margin : 0 0;
+    color : #808080;
+}
+aside #loginBox #loginBtn {
+    margin : 10px 0;
+    padding : 15px 100px;
+    background-color: #19ce60;
+    color : #ffffff;
+}
+aside #loginBox #loginBtn > img { width : 60px; }
+aside #loginBox #findIdpw > img { width : 10px; }
+aside #loginBox #findIdpw > span {
+    display : inline-block;
+    background-color: #d7dce0;
+    margin : 3px 3px;
+    border-radius: 50%;
+    width : 3px;
+    height : 3px
+}
+aside #loginBox #join {
+    float : right;
+}
+aside #loginBox #join > img { width : 10px; }
