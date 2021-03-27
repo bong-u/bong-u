@@ -1,4 +1,4 @@
-#### Hello my name is bong u. I'm studying Computer Science at Chungnam University.
+#### Hello my name is bong u. I'm taking a leave for absence from Chungnam University. Now I'm serving in military.
 [![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:bongudev@gmail.com)](mailto:bongudev@gmail.com)
 
 #### - I'm learning
