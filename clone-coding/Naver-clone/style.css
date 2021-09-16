@@ -1,0 +1,105 @@
+body{
+    font-family: '맑은고딕';
+}
+header {
+    display : inline-block;
+    margin : 10px 180px;
+}
+header #serviceArea {
+    float : right;
+    font-size : 12px;
+}
+header #logoArea {
+    display : flex;
+    align-items: center;
+    padding : 40px 0;
+    margin : 0px;
+}
+header #logoArea img { width : 222px; }
+header #searchBox {
+    display: flex;
+    align-items : center;
+    border : solid 2px #19ce60;
+    margin : 0 20px;
+    height : 50px;
+}
+header #searchBox > *:not(input) {margin : 0 7px}
+header #searchBox input {
+    width : 420px;
+    height : 24px;
+    border : 0px;
+    padding : 13px 15px;
+    font-size : 20px;
+    font-weight: bold;
+}
+header #searchBox input:focus { outline : none; }
+header #searchBox #keyboard { width : 20px; }
+header #searchBox #arrow { width : 10px; }
+header #searchBox #search {
+    background-color: #19ce60;
+    width : 20px;
+    padding : 17px 17px;
+    margin : 0;
+}
+
+nav {
+    border-top : 1px solid #dfe3e6;
+    border-bottom : 1px solid #dfe3e6;
+    padding : 4px 0;
+}
+nav #navgroup { margin : 10px 180px; }
+nav a { margin : 0 5px; }
+nav span.green { color : #19ce60; }
+nav span.bold { font-weight : bold; }
+nav span:not([class]) {
+    font-size : 13px;
+    margin : 0 10px;
+}
+
+nav #keyword {
+    float : right;
+    font-size : 12px;
+    padding : 5px 0;
+}
+nav img { padding : 0 3px;}
+nav #mail { width : 20px; }
+nav #tv { width : 12px; }
+nav #more { width : 10px; }
+nav #moreKeyword { width : 15px; }
+
+main {
+    margin : 0 180px;
+}
+aside { float : right; }
+aside #loginBox {
+    margin : 20px 0;
+    padding : 20px 20px;
+    border : 1px solid #dae1e6;
+    background-color : #f7f9fa;
+    font-size : 12px;
+}
+aside #loginBox > a { display : block;  }
+aside #loginBox > p {
+    margin : 0 0;
+    color : #808080;
+}
+aside #loginBox #loginBtn {
+    margin : 10px 0;
+    padding : 15px 100px;
+    background-color: #19ce60;
+    color : #ffffff;
+}
+aside #loginBox #loginBtn > img { width : 60px; }
+aside #loginBox #findIdpw > img { width : 10px; }
+aside #loginBox #findIdpw > span {
+    display : inline-block;
+    background-color: #d7dce0;
+    margin : 3px 3px;
+    border-radius: 50%;
+    width : 3px;
+    height : 3px
+}
+aside #loginBox #join {
+    float : right;
+}
+aside #loginBox #join > img { width : 10px; }
