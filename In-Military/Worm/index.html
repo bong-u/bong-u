@@ -78,7 +78,7 @@
             this.#t = 250;
 
             this.#bg = new Image();
-            this.#bg.src = "tiger.png";
+            this.#bg.src = "res/tiger.png";
 
             let block = new Block (600, 250, null, true);
 			
@@ -300,7 +300,7 @@
     window.onload = function () {
         var ctx = document.getElementById ('canvas').getContext('2d');
         var bg = new Image();
-        bg.src = "tiger.png";
+        bg.src = "res/tiger.png";
         ctx.globalAlpha = 0.1;
         ctx.drawImage (bg, 425, 75, 400, 400);
         ctx.globalAlpha = 1.0;
