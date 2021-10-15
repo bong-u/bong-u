@@ -317,14 +317,15 @@
             [[1,1,0,0],[1,0,0,0],[1,0,0,0],[0,0,0,0]],      //┌형
             [[1,1,0,0],[1,0,0,0],[1,0,0,0],[0,0,0,0]],      //┐형
             [[1,1,0,0],[1,1,0,0],[0,0,0,0],[0,0,0,0]],		//ㅁ형
-			[[1,1,0,0],[0,1,1,0],[0,0,0,0],[0,0,0,0]]		//Z형
+			[[1,1,0,0],[0,1,1,0],[0,0,0,0],[0,0,0,0]],		//Z형
+			[[0,1,1,0],[1,1,0,0],[0,0,0,0],[0,0,0,0]]		//Z형-reverse
         ];
         
         static colorData = ['red', 'blue', 'green', 'yellow', 'orange'];
 
         constructor(current) {      //current or next        
             this.#blocks = [];
-            this.#shape = Shape.shapeData[Math.floor(Math.random() * 6)];
+            this.#shape = Shape.shapeData[Math.floor(Math.random() * 7)];
             this.#color = Shape.colorData[Math.floor(Math.random() * 5)];
             
             this.#lastdX = 0;
