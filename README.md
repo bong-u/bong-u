@@ -20,4 +20,11 @@
 [![bong-u's github stats](https://github-readme-stats.vercel.app/api?username=bong-u)](https://github.com/bong-u/github-readme-stats)
 
 
-#### - MY LOVE [@harii-in](https://github.com/harii-in)💕
+#### - My Deploy Flowchart
+
+bong-u/clone-beacon - github pages
+
+bong-u/rest-drf - heroku (rest-drf)
+
+bong-u/flo-reminder - oracle cloud server (periodic execution [crontab] )
+
