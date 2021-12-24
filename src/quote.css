@@ -1,0 +1,11 @@
+#quote {
+    margin: 0 auto;
+    line-height: 90vh;
+    font-size: 30px;
+    text-align: center;
+}
+.item > span {
+	position: absolute;
+    right: 100px;
+    line-height: 100px;
+}

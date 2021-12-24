@@ -1,0 +1,19 @@
+body {
+	background-color : black;
+	color : white;
+	overflow : hidden;
+	margin : 0px;
+}
+
+#pages {
+	overflow-y: scroll;
+    height: 100vh;
+	scroll-snap-type: y mandatory;
+}
+#pages::-webkit-scrollbar { display: none; }
+
+#pages > * {
+	scroll-snap-align: center;
+    box-sizing: border-box;
+	min-height: 100vh;
+}
