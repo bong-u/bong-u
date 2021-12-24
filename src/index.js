@@ -19,6 +19,9 @@ class Content extends React.Component {
 				<div className="project">
 					<span>Tetris</span>
 				</div>
+				<div className="project">
+					<span>MineSweeper</span>
+				</div>
 			</div>
 		);
 	}
