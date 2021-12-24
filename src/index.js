@@ -1,17 +1,33 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import './style.css';
+
+class Quote extends React.Component {
+	render() {
+		return (
+			<div id='text'>“Talk is cheap. Show me the code.”
+― Linus Torvalds</div>
+		);
+	}
+}
+
+class Content extends React.Component {
+
+	render() {
+		return (
+			<div>
+				<div className="project">
+					<span>Tetris</span>
+				</div>
+			</div>
+		);
+	}
+}
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+	<div>
+		<Quote/>
+		<Content/>
+	</div>,
+	document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
