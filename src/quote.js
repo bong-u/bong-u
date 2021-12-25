@@ -4,7 +4,11 @@ import './quote.css';
 class Quote extends React.Component {
 	render() {
 		return (
-			<div id='quote'>“Talk is cheap. Show me the code.” ― Linus Torvalds</div>
+			<div id='quote'>
+				<div>
+					<p>“Simplicity is prerequisite for reliability.” - Edsger Dijkstra</p>
+				</div>
+			</div>
 		);
 	}
 }

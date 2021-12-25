@@ -8,8 +8,8 @@ import { Career } from './career'
 ReactDOM.render(
 	<div id="pages">
 		<Quote/>
-		<Project/>
 		<Career/>
+		<Project/>
 	</div>,
 	document.getElementById('root')
 );

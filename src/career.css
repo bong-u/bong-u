@@ -1,0 +1,19 @@
+#career {
+	position : relative;
+}
+
+#career > div {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 800px;
+}
+
+#career > div > .item  {
+	margin : 50px 0;
+}
+#career span.content {
+	position: absolute;
+    left: 200px;
+}

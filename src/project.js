@@ -13,9 +13,30 @@ class Project extends React.Component {
 					</a>
 				</div>
 				<div>
+					<a className = "item" href="https://bong-u.github.io/bong-u/game/minesweeper">
+						<img src="/minesweeper.png" alt=""></img>
+						<span>MineSweeper</span>
+					</a>
+				</div>
+				
+				<div>
+					<a className = "item" href="https://bong-u.github.io/bong-u/game/worm">
+						<img src="/tetris.png" alt=""></img>
+						<span>Worm</span>
+					</a>
+				</div>
+				
+				<div>
+					<a className = "item" href="https://bong-u.github.io/bong-u/game/tetris">
+						<img src="/minesweeper.png" alt=""></img>
+						<span>Bartist</span>
+					</a>
+				</div>
+				
+				<div>
 					<a className = "item" href="https://bong-u.github.io/bong-u/game/tetris">
 						<img src="/tetris.png" alt=""></img>
-						<span>MineSweeper</span>
+						<span>REST-DRF</span>
 					</a>
 				</div>
 			</div>
