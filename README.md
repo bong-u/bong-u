@@ -1,4 +1,4 @@
-# Bong-U Son
+# BONG-U SON
 
 ### 
 [![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:bongudev@gmail.com)](mailto:bongudev@gmail.com)
