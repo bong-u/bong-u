@@ -7,3 +7,12 @@
 <!-- [![https://solved.ac/profile/bong_u](http://mazassumnida.wtf/api/generate_badge?boj=bong_u)](https://solved.ac/bong_u) -->
 
 ![Top Langs](https://github-readme-stats-seven-kappa-62.vercel.app/api/top-langs/?username=bong-u&layout=compact)
+
+
+<a href="https://github.com/devxb/gitanimals">
+<img
+  src="https://render.gitanimals.org/farms/bong-u"
+  width="600"
+  height="300"
+/>
+</a>
